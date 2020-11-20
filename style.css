@@ -1,16 +1,22 @@
 /* website styles*/
 * {
   font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 body {
     background-color: lavender;
   color: DarkSlateBlue;
   font-family: Arial;
   font-size: 14px;
+  margin: 50px;
 }
 h1 {
   font-size: 36px;
   color: Midnightblue;
+  border-bottom: 1px solid black;
 }
 h2 {
 Font-size: 24px;
@@ -21,13 +27,27 @@ h3 {
 h1,h2,h3 {
   Font-weight: 900;
   font-style: normal;
+  margin-bottom: 20px;
 }
 p {
   line-height: 2;
+  margin: 15px 0;
 }
 header h1 {
   text-align: center;
 }
 section ol li {
   color: red;
+}
+header,
+section,
+footer {
+  padding: 30px;
+}
+section {
+  border: 1px dashed red;
+}
+.title {
+  font-size: 48px;
+  text-decoration: underlined;
 }
