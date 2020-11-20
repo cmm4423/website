@@ -1,9 +1,36 @@
+/* website styles*/
+* {
+  font-size: 100%;
+}
 body {
-  background-color: lavender;
+    background-color: lavender;
   color: DarkSlateBlue;
   font-family: Arial;
+  font-size: 14px;
 }
 h1 {
-  font-size: 30px;
+  font-size: 36px;
   color: Midnightblue;
+}
+h2 {
+Font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h1,h2,h3 {
+  Font-weight: 900;
+  font-style: normal;
+}
+p {
+  line-height: 2;
+}
+header h1 {
+  text-align: center;
+}
+section ol li {
+  color: red;
+}
+ol li:hover {
+  text-decoration: underline;
 }
