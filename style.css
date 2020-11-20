@@ -1,12 +1,9 @@
 body {
-  background-color: lightblue;
-}
-h1 {
-  font-size: 28px;
-  color: purple;
-}
-body {
-  background-color: Aliceblue;
+  background-color: lavender;
   color: DarkSlateBlue;
   font-family: Arial;
+}
+h1 {
+  font-size: 30px;
+  color: Midnightblue;
 }
