@@ -7,11 +7,14 @@
   /* border: 1px solid red; */
 }
 body {
-    background-color: lavender;
+  background-color: lavender;
   color: DarkSlateBlue;
   font-family: Arial;
   font-size: 14px;
   margin: 50px;
+  background-image: url(images/circles-dark.png);
+  background-repeat: no-repeat;
+
 }
 h1 {
   font-size: 36px;
@@ -32,22 +35,39 @@ h1,h2,h3 {
 p {
   line-height: 2;
   margin: 15px 0;
+  text-align: left;
 }
 header h1 {
   text-align: center;
 }
 section ol li {
-  color: red;
+  color: darkblue;
 }
+
 header,
 section,
 footer {
   padding: 30px;
 }
 section {
-  border: 1px dashed red;
+  border: 1px dashed black;
+  image-align: center;
 }
 .title {
   font-size: 48px;
   text-decoration: underlined;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+div {
+  margin: 0 auto;
+}
+.banner {
+  height: 350px;
+  background-image: url(images/ekaterina-kobalnova-pNCxo9xEMDQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
 }
