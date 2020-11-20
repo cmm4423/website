@@ -31,6 +31,3 @@ header h1 {
 section ol li {
   color: red;
 }
-ol li:hover {
-  text-decoration: underline;
-}
